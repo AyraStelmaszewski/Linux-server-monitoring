@@ -90,7 +90,6 @@ sudo systemctl start acct
 ```bash
 lastcomm
 ```
-<img width="730" alt="Capture d’écran 2024-04-03 à 19 13 48" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/e9d7987c-72a1-41f0-b02b-e81718f8a806">
 
 # What are the different metrics of health and performance of a system ?
 - There are various metrics used to assess the health and performance of the system.
