@@ -102,6 +102,25 @@ lastcomm
   > Process Statistics <br>
   > Filesystem health <br>
   > System Logs <br>
+  > Inode Usage <br>
 
+# How can you check the uptime of a machine ?
+- With psaact 
+```bash
+ac
+```
 
+# How can you assess the network traffic ?
+- With iftop
+```bash
+sudo iftop -i enp0s1
+```
+- With iftop 
+```bash
+sudo iftop -i enp0s1
+```
+- With iptraf
+```bash
+sudo iptraf-ng
+```
 
