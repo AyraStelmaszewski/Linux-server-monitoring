@@ -93,8 +93,15 @@ lastcomm
 
 # What are the different metrics of health and performance of a system ?
 - There are various metrics used to assess the health and performance of the system.
-  > test
-  > test 2 
+  > GPU usage <br>
+  > Memory usage <br>
+  > Disk usage <br>
+  > Disk I/O <br>
+  > Network Traffic <br>
+  > Load Average <br>
+  > Process Statistics <br>
+  > Filesystem health <br>
+  > System Logs <br>
 
 
 
