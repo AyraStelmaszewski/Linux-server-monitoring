@@ -28,9 +28,26 @@ The second task is meant to serve as practice and will have you, in a different 
 - We can use "vmstat" that provides information about CPU activity in addition to memory. <br>
 - "mpstat" displays the statistics of CPU usage in the system by initializing the first processor with CPU 0, the second with CPU 1, and so on.
 
-##System load
+## System load
 - System load averages, also called Linux load averages, show the running thread demand on the system as the average number of running plus waiting threads. <br>
 - Average system load is calculated over a given period of one, five, and 15 minutes. 
+
+## Memory utilization and processes
+-  Monitoring memory helps you identify over- and underused servers and redistribute loads effectively.
+-  Memory usage is calculated using the “free” command. The free command provides insight into swap space and the amount of used and unused memory.
+-  Monitoring every process running on your Linux server will help you evaluate system performance, debug issues, and optimize server processes.
+
+##  Inode usage
+- In linux, files systems contain two parts: metadata and actual data. Each file has an inode that contains metadata about the file. An inode stores all the information regarding the file, including file size, file location, device ID, user ID, group ID, file access privileges, and time stamps.
+-  Since every file has an inode, the potential issue is that all the inodes of a disk might be completely used even before the disk is full.
+  
+## Cron jobs
+-  Tracking how long your cron jobs usually run with the help of an efficient Linux server monitoring tool will help you receive customized alerts in case they run too slowly.
+
+## Tools to do monitoring 
+- Applications Manager is a part of ManageEngine ITOM suite of solutions. Apart from Applications monitoring, ITOM also has solutions to streamline network monitoring, server monitoring, bandwidth monitoring, configuration management, firewall security and compliance, IP address management and switch port management.
+
+
 
      
 - Harddrive storage 
