@@ -23,14 +23,14 @@ The second task is meant to serve as practice and will have you, in a different 
 ## Write-up
 # Main area of concern when monitoring a system 
 
-***CPU***
-    CPU usage is one of the first places to look when a Linux server shows signs of slowing down. Monitoring CPU usage regularly will help analyze the CPU load over a stipulated            period and overcome performance regression.
-     > We can use "vmstat" that provides information about CPU activity in addition to memory. <br>
-     > "mpstat" displays the statistics of CPU usage in the system by initializing the first processor with CPU 0, the second with CPU 1, and so on.
+## CPU
+- CPU usage is one of the first places to look when a Linux server shows signs of slowing down. Monitoring CPU usage regularly will help analyze the CPU load over a stipulated            period and overcome performance regression.
+- We can use "vmstat" that provides information about CPU activity in addition to memory. <br>
+- "mpstat" displays the statistics of CPU usage in the system by initializing the first processor with CPU 0, the second with CPU 1, and so on.
 
-***System load***
-    System load averages, also called Linux load averages, show the running thread demand on the system as the average number of running plus waiting threads. <br>
-    Average system load is calculated over a given period of one, five, and 15 minutes. 
+##System load
+- System load averages, also called Linux load averages, show the running thread demand on the system as the average number of running plus waiting threads. <br>
+- Average system load is calculated over a given period of one, five, and 15 minutes. 
 
      
 - Harddrive storage 
