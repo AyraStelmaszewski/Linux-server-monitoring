@@ -53,10 +53,43 @@ The second task is meant to serve as practice and will have you, in a different 
 - Applications Manager is a part of ManageEngine ITOM suite of solutions. Apart from Applications monitoring, ITOM also has solutions to streamline network monitoring, server monitoring, bandwidth monitoring, configuration management, firewall security and compliance, IP address management and switch port management.
 - Datadog Cloud Workload Security analyzes the full process tree across all your Linux hosts and containers in real time to automatically detect the kind of threats we’ve looked at. 
 
+# Check most memory intensive running processes 
 
-
-
-
+```bash
+top
+```
+# What are log files? Where can you fin them on a typical Linux system ? 
+- Usually they are stored in /var/log directory.
+# How can you check who where the last connected users, what they did, when they left ?
+- See last connected user with : 
+```bash
+last
+```
+```bash
+grep 'session opened' /var/log/auth.log
+```
+- To know what users did : 
+```bash
+cat ~/.bash_history
+```
+- To know when users left : 
+```bash
+grep 'session closed' /var/log/auth.log
+```
+- Since users can delete the bash_history files there is accounting utilities that can be installed using psacct or acct package.
+```bash
+sudo apt install acct
+```
+```bash
+sudo systemctl enable acct
+```
+```bash
+sudo systemctl start acct
+```
+- With acct cames lastcom which we can use to know latest Linux cmd
+```bash
+lastcomm
+```
 
 
 
