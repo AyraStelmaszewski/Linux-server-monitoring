@@ -19,3 +19,14 @@ The second task is meant to serve as practice and will have you, in a different 
 
 
 > **IMPORTANT**: Take your time when researching, it's the most important part of this challenge as you'll need to be able to find out what is happening on any given system at any given time. Whether it's the percentage of system's resources currently used, what commands are being run, who is logged in, and so on...
+
+## Write-up
+# Main area of concern when monitoring a system 
+
+***CPU***
+  1) CPU usage is one of the first places to look when a Linux server shows signs of slowing down. Monitoring CPU usage regularly will help analyze the CPU load over a stipulated period and overcome performance regression.
+     > We can use "vmstat" that provides information about CPU activity in addition to memory.
+     > "mpstat" displays the statistics of CPU usage in the system by initializing the first processor with CPU 0, the second with CPU 1, and so on.
+     
+- Harddrive storage 
+- Network statistics 
