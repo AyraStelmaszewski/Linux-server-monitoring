@@ -86,14 +86,15 @@ sudo systemctl enable acct
 ```bash
 sudo systemctl start acct
 ```
-- With acct cames lastcom which we can use to know latest Linux cmd
+- With acct cames "lastcomm" which we can use to know latest Linux cmd
 ```bash
 lastcomm
 ```
 
+# What are the different metrics of health and performance of a system ?
+- There are various metrics used to assess the health and performance of the system.
+  > test
+  > test 2 
 
 
 
-     
-- Harddrive storage 
-- Network statistics 
