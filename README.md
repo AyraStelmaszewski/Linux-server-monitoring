@@ -22,9 +22,8 @@ The second task is meant to serve as practice and will have you, in a different 
 
 ## Write-up
 # Main area of concern when monitoring a system 
-  < https://www.datadoghq.com/blog/linux-security-threat-detection-datadog/
-  < https://www.datadoghq.com/blog/linux-security-threat-detection-datadog/
-
+  > https://www.datadoghq.com/blog/linux-security-threat-detection-datadog/ <br>
+  > https://www.linode.com/docs/guides/linux-system-monitoring-fundamentals/ <br>
 ## CPU
 - CPU usage is one of the first places to look when a Linux server shows signs of slowing down. Monitoring CPU usage regularly will help analyze the CPU load over a stipulated            period and overcome performance regression.
 - We can use "vmstat" that provides information about CPU activity in addition to memory. <br>
