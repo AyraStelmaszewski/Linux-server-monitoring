@@ -18,11 +18,13 @@ last
 ```
 <img width="544" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/d905caf7-dd0d-4ed8-8e27-eec78f368dbf">
 We have an outpout with users log in/out informations. 
+
    2) Watch users cmd : 
+   
 ```bash
 cat ~/.bash_history
 ```
-   > Care this file can be delete.
+   > Care this file can be delete. /!!How to see bash history if the file got deleted?/!!
 
 
   - With framework :
