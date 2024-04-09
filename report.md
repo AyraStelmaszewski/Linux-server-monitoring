@@ -107,12 +107,16 @@ find . -maxdepth 1 -type d -exec sh -c '(echo -n "{}: "; find "{}" | wc -l)' \;
 ```
 
 
+
 **5) Inode**
 
 ```bash
 find . -maxdepth 1 -type d -exec sh -c '(echo -n "{}: "; find "{}" | wc -l)' \;
 ```
+```bash
 find . -maxdepth 1 -type d -exec sh -c '(echo -n "{}: "; find "{}" | wc -l)' \;
+```
+
 <img width="756" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/872bdad9-de80-4d8a-ae4e-a87be7a33081">
 
 **5) Inode**
