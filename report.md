@@ -35,6 +35,7 @@ cat ~/.bash_history
 <img width="623" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/5d5c425c-c555-4e18-8f0a-70018ae68df6">
 <img width="617" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/c7018871-aea5-49c3-b0b2-1c079dbfd6ba">
 
+**2) CPU***
 
 
 
