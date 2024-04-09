@@ -95,8 +95,32 @@ sudo iftop -i enp0s1
 ```
 <img width="747" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/ad71add7-e1ff-4d13-88e8-cc2840cf61d2">
 
+```bash
+sudi iptraf
+```
+<img width="747" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/ad71add7-e1ff-4d13-88e8-cc2840cf61d2">
+
+**5) Inode**
+
+```bash
+find . -maxdepth 1 -type d -exec sh -c '(echo -n "{}: "; find "{}" | wc -l)' \;
+```
 
 
+**5) Inode**
+
+```bash
+find . -maxdepth 1 -type d -exec sh -c '(echo -n "{}: "; find "{}" | wc -l)' \;
+```
+find . -maxdepth 1 -type d -exec sh -c '(echo -n "{}: "; find "{}" | wc -l)' \;
+<img width="756" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/872bdad9-de80-4d8a-ae4e-a87be7a33081">
+
+**5) Inode**
+
+```bash
+find . -maxdepth 1 -type d -exec sh -c '(echo -n "{}: "; find "{}" | wc -l)' \;
+```
+<img width="760" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/e3d2a545-3e06-40a1-be28-20eb9c4ba618">
 
 
 
