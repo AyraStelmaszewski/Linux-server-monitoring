@@ -57,6 +57,7 @@ The second task is meant to serve as practice and will have you, in a different 
 -  **Logwatch** Linux application, for instance, sends a daily email report of all of the logs on a server, providing administrators with valuable information, including potential malicious activity, SSH attempts, IPs causing errors, and the number of sent emails in the server.
 
 <br>
+
 ## Intersting thing to do to increase security on linux server.
 - Remove unnecessary services
 - Check for security on key files
