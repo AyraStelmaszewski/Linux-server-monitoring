@@ -16,7 +16,7 @@ The server is also hosting a website on http://librarykali which is configured w
 last
 ```
 <img width="544" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/d905caf7-dd0d-4ed8-8e27-eec78f368dbf"> <br>
-~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
+~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~ <br>
 2) We have an outpout with users log in/out informations :    
 ```bash
 cat ~/.bash_history
@@ -24,7 +24,7 @@ cat ~/.bash_history
    > Care this file can be delete. /!!How to see bash history if the file got deleted?/!!
 
 
-~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
+~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~ <br>
     
 3) We can use Logwatch, it's a free software to automate user monitoring which can send outpout directly to our mail. In our case we'll configure it to oupout the result in out CLI as we haven't configured a mail service on this server.
 <img width="573" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/66d8a82a-be9d-4236-ba50-ee595c80a723">
@@ -38,7 +38,9 @@ cat ~/.bash_history
 top
 ```
 <img width="751" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/a4ec6d30-e6b7-4fa6-9254-7da93eb54189">
-~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
+
+~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~ <br>
+
 ```bash
 mpstat
 ```
