@@ -47,8 +47,22 @@ mpstat
 <img width="751" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/662b2d92-b6ee-49d0-8691-e44e6e80630e">
 
 **3) Load average**
+```bash
+uptime
+```
+<img width="449" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/5291bbba-0a9e-4f0b-8a21-87ff1e1076ea">
 
- 
+```bash
+cat /proc/loadavg
+```
+<img width="313" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/41d87221-0c7f-494d-ab6d-cea662a9e389">
+
+```bash
+w
+```
+<img width="529" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/3516aacb-837a-4187-b476-3fbc05a2a5f8">
+
+
 
 
 
