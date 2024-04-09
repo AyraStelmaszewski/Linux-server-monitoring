@@ -50,10 +50,13 @@ The second task is meant to serve as practice and will have you, in a different 
 - Track all the mouvement on your network with a varieted pool of tools 
 
 ## Tools to do monitoring 
-- Applications Manager is a part of ManageEngine ITOM suite of solutions. Apart from Applications monitoring, ITOM also has solutions to streamline network monitoring, server monitoring, bandwidth monitoring, configuration management, firewall security and compliance, IP address management and switch port management.
-- Datadog Cloud Workload Security analyzes the full process tree across all your Linux hosts and containers in real time to automatically detect the kind of threats we’ve looked at.
-- Tripwire is a file integrity monitoring tool that watches for changes to critical files on your system.
 
+- **Applications Manager** is a part of ManageEngine ITOM suite of solutions. Apart from Applications monitoring, ITOM also has solutions to streamline network monitoring, server monitoring, bandwidth monitoring, configuration management, firewall security and compliance, IP address management and switch port management.
+- **Datadog Cloud Workload Security** analyzes the full process tree across all your Linux hosts and containers in real time to automatically detect the kind of threats we’ve looked at.
+- **Tripwire** is a file integrity monitoring tool that watches for changes to critical files on your system.
+-  **Logwatch** Linux application, for instance, sends a daily email report of all of the logs on a server, providing administrators with valuable information, including potential malicious activity, SSH attempts, IPs causing errors, and the number of sent emails in the server.
+
+<br>
 ## Intersting thing to do to increase security on linux server.
 - Remove unnecessary services
 - Check for security on key files
