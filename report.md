@@ -62,6 +62,42 @@ w
 ```
 <img width="529" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/3516aacb-837a-4187-b476-3fbc05a2a5f8">
 
+**3) Load average**
+```bash
+ps
+```
+<img width="756" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/821641e5-30bf-4fdf-ab2c-a4402c250aa2">
+
+```bash
+top
+```
+<img width="751" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/a4ec6d30-e6b7-4fa6-9254-7da93eb54189">
+<img width="677" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/a3acb27b-df42-432a-b2ac-9ee6e962b4a6">
+
+**4) Network statistics**
+```bash
+netstat
+```
+<img width="674" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/62185748-1967-405f-9405-8b4b1a7129bb">
+
+```bash
+tcpdump
+```
+<img width="755" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/7cdbefa6-4b95-437c-892f-2a0806b174d0">
+
+```bash
+tcpdump
+```
+<img width="750" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/23cf15cf-b84f-4fc7-a3fd-12d61a3bb90b">
+
+```bash
+sudo iftop -i enp0s1
+```
+<img width="747" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/ad71add7-e1ff-4d13-88e8-cc2840cf61d2">
+
+
+
+
 
 
 
