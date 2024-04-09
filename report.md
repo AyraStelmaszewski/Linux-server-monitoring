@@ -11,12 +11,19 @@ The server is also hosting a website on http://librarykali which is configured w
 ## Analysis of outcomes & impacts 
 
 1) Monitoring users
-   - Without framework : 
+    - Without framework :
+   1) Watch users logs :
 ```bash
 last
 ```
 <img width="544" alt="image" src="https://github.com/AyraStelmaszewski/Linux-server-monitoring/assets/68444023/d905caf7-dd0d-4ed8-8e27-eec78f368dbf">
 We have an outpout with users log in/out informations. 
+   2) Watch users cmd : 
+```bash
+cat ~/.bash_history
+```
+   > Care this file can be delete.
+
 
   - With framework :
     We can use Logwatch, it's a free software to automate user monitoring which can send outpout directly to our mail. In our case we'll configure it to oupout the result in out CLI as we haven't configured a mail service on this server.
